@@ -1,1 +1,3 @@
-.cpp:tests
+*.cpp:tests
+*.*
+!*/
