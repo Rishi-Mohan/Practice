@@ -1,1 +1,8 @@
-.cpp:tests
+# Ignore files that do NOT end in .cpp
+# Ignore files with no extension
+*
+# But do NOT ignore .cpp files
+!*.cpp
+
+# Ignore files that have a suffix ':tests'
+*:tests
