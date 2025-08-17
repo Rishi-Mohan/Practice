@@ -5,18 +5,3 @@ Solved A, B
 C : was simple Dijkstra with reverse edge added, but not able to prove its correctness.
 
 D : Nice Dp problem in grid
-
-## Correctness for C,
-
-constraint : from each node, we can reverse an incoming edge atmost once.
-
-Fact : if we have +ve weight in a graph then atmost once each node will be visited.
-no node will be visited twice.
-
-For D:
-
-what if we don't have contraints of teleportation ?
-dp[i][j] = minimum cost to reach (n-1,m-1) if we start from i,j;
-
-changes for actual problem will be
-dp[i][j][moves] = minimum cost to reach (n-1, m-1) if we start from (i,j) and used 'moves' times teleportation.
